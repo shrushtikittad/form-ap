@@ -1,0 +1,68 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 450px; 
+    row-gap: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+body{
+    background-color: rgb(171, 171, 241);
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.form-border{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    height: 450px;
+    align-items: center;
+    margin-top: 8%;
+    justify-content: center;
+}
+
+.para{
+    display: flex;
+    
+    align-items:flex-end;
+    width: 400px;
+    height: 450px;
+    background-color: rgb(92, 92, 219);
+}
+
+.welcome{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: azure;
+    margin-left: 10%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.login-detail{
+    width: 230px;
+    height: 30px;
+}
+
+.submit{
+    background-color: rgb(87, 201, 239);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: white;
+}
+
+.label{
+    font-size: 25px;
+}
+
+.image{
+    border-color: black;
+    border-width: 50px;
+}
